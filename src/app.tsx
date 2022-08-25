@@ -1,9 +1,12 @@
-import MyMap from './components/map/map';
+import MyMap from './components/map';
+import styles from './app.module.css';
+import ExteriorControls from './components/exterior-controls/exterior-controls';
 
 const App = () => (
-  <div>
+  <main class={styles.main}>
+    <ExteriorControls />
     <MyMap />
-  </div>
+  </main>
 );
 
 export default App;

@@ -5,7 +5,8 @@
     "alwaysStrict": true,
     "strict": true,
     "strictNullChecks": true,
-    "strictFunctionTypes": true
+    "strictFunctionTypes": true,
+    "lib": ["ESNext", "DOM"]
   },
   "include": ["src"],
   "exclude": ["node_modules"]
